@@ -14,6 +14,7 @@ namespace MMGame
             Application.EnableVisualStyles();
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.SetCompatibleTextRenderingDefault(false);
+            Application.EnableWindowsTargeting(true);
             Application.Run(new Form1());
         }
 
